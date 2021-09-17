@@ -1,8 +1,0 @@
-{
-  "Nickname": "caco-alch-potion-builder Registry Builder",
-  "Visibility": "Visible",
-  "OneLineDescription": "Only useful for https://github.com/radj307/caco-alch-potion-builder",
-  "LongDescription": "I use this as a utility.\nYou don't need it unless you're using https://github.com/radj307/caco-alch-potion-builder",
-  "PreferredAutoVersioning": "Default",
-  "RequiredMods": []
-}
