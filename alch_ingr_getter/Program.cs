@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Mutagen.Bethesda;
@@ -11,7 +12,6 @@ namespace alch_ingr_getter
     {
         internal static Lazy<Settings> _lazySettings = null!;
         internal static Settings Settings => _lazySettings.Value;
-        internal static FileInterface IO = new(Settings.filename);
 
         public static async Task<int> Main(string[] args)
         {
@@ -24,14 +24,25 @@ namespace alch_ingr_getter
 
         public static void RunPatch(IPatcherState<ISkyrimMod, ISkyrimModGetter> state)
         {
-            Console.WriteLine($"\n\nConfiguration\n\tOut File:\t{Settings.filename}\n");
+            FileInterface IO = new(Settings.filename);
+
+            List<string> data = new();
+
+            Console.WriteLine($"\n\nConfiguration\n\tOut File:\t{Settings.filename}");
             Console.WriteLine("\n\n=== Beginning Process. ===\nGetting a list of all ingredients...\n");
 
             int count = 0;
             foreach( var ingr in state.LoadOrder.PriorityOrder.Ingredient().WinningOverrides().Where(i => i.EditorID != null))
-                count += IO.WriteIngredient(ingr, state);
+            {
+                data.AddRange(Formatter.FormatIngredient(ingr, state));
+                ++count;
+            }
 
-            Console.WriteLine($"\n\n=== Process Completed. ===\nSuccessfully wrote {count} ingredients to \"{Settings.filename}\"\n");
+            Console.WriteLine("\n\n=== Process Completed. ===\nWriting to file...\n");
+
+            IO.Write(ref data);
+
+            Console.WriteLine($"Successfully wrote {count} ingredients to \"{Settings.filename}\"\n");
         }
     }
 }
