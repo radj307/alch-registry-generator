@@ -1,0 +1,6981 @@
+Sload Soap
+{
+	Resist Fire
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAEA = AlchResistFire
+		}
+	}
+	Fear
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			073F20 = AlchInfluenceConfDown
+		}
+	}
+	Fortify Conjuration
+	{
+		magnitude	= 6
+		duration	= 60
+		Keywords
+		{
+			03EB25 = AlchFortifyConjuration
+		}
+	}
+	Fortify Alteration
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB24 = AlchFortifyAlteration
+		}
+	}
+}
+Stoneflower Petals
+{
+	Weakness to Shock
+	{
+		magnitude	= 4
+		duration	= 30
+		Keywords
+		{
+			073F2F = AlchWeaknessShock
+		}
+	}
+	Fortify One-handed
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB19 = AlchFortifyOneHanded
+		}
+	}
+	Fortify Magicka
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EAF8 = AlchFortifyMagicka
+		}
+	}
+	Fortify Enchanting
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			03EB29 = AlchFortifyEnchanting
+		}
+	}
+}
+Void Essence
+{
+	Restore Health
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+	Fortify Health
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EAF3 = AlchFortifyHealth
+		}
+	}
+	Fortify Stamina
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EAF9 = AlchFortifyStamina
+		}
+	}
+	Regenerate Health
+	{
+		magnitude	= 6
+		duration	= 300
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+}
+Watcher's Eye
+{
+	Night Eye
+	{
+		magnitude	= 0
+		duration	= 60
+		Keywords
+		{
+			000803 = ccBGSSSE037_NightEyeEffect
+		}
+	}
+	Fortify Magicka
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EAF8 = AlchFortifyMagicka
+		}
+	}
+	Fortify Illusion
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB27 = AlchFortifyIllusion
+		}
+	}
+	Spell Absorption
+	{
+		magnitude	= 50
+		duration	= 60
+		Keywords
+		{
+			000812 = ccBGSSSE037_RaceBretonAbsorbSpellChance
+		}
+	}
+}
+Blind Watcher's Eye
+{
+	Light
+	{
+		magnitude	= 0
+		duration	= 60
+		Keywords
+		{
+			000846 = ccBGSSSE037_LightFFSelf
+		}
+	}
+	Fortify Magicka
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EAF8 = AlchFortifyMagicka
+		}
+	}
+	Fortify Alteration
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB24 = AlchFortifyAlteration
+		}
+	}
+	Spell Absorption
+	{
+		magnitude	= 50
+		duration	= 60
+		Keywords
+		{
+			000812 = ccBGSSSE037_RaceBretonAbsorbSpellChance
+		}
+	}
+}
+Wisp Stalk Caps
+{
+	Damage Health
+	{
+		magnitude	= 3
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Weakness to Poison
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			090042 = AlchWeaknessPoison
+		}
+	}
+	Frenzy
+	{
+		magnitude	= 1
+		duration	= 20
+		Keywords
+		{
+			073F29 = AlchInfluenceAggUp
+		}
+	}
+	Regenerate Stamina
+	{
+		magnitude	= 6
+		duration	= 300
+		Keywords
+		{
+			03EB08 = AlchFortifyStaminaRate
+		}
+	}
+}
+Withering Moon
+{
+	Restore Magicka
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Spell Absorption
+	{
+		magnitude	= 50
+		duration	= 60
+		Keywords
+		{
+			000812 = ccBGSSSE037_RaceBretonAbsorbSpellChance
+		}
+	}
+	Fortify Light Armor
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EB1F = AlchFortifyLightArmor
+		}
+	}
+	Cure Disease
+	{
+		magnitude	= 2
+		duration	= 0
+		Keywords
+		{
+			0AE722 = AlchCureDisease
+		}
+	}
+}
+Worm's Head Cap
+{
+	Fortify Lockpicking
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			03EB21 = AlchFortifyLockpicking
+		}
+	}
+	Night Eye
+	{
+		magnitude	= 0
+		duration	= 60
+		Keywords
+		{
+			000803 = ccBGSSSE037_NightEyeEffect
+		}
+	}
+	Fortify Carry Weight
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB01 = AlchFortifyCarryWeight
+		}
+	}
+	Slow
+	{
+		magnitude	= 50
+		duration	= 10
+		Keywords
+		{
+			073F25 = AlchDamageSpeed
+		}
+	}
+}
+Daedroth Teeth
+{
+	Resist Frost
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAEB = AlchResistFrost
+		}
+	}
+	Light
+	{
+		magnitude	= 0
+		duration	= 60
+		Keywords
+		{
+			000846 = ccBGSSSE037_LightFFSelf
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 10
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+	Regenerate Stamina
+	{
+		magnitude	= 6
+		duration	= 300
+		Keywords
+		{
+			03EB08 = AlchFortifyStaminaRate
+		}
+	}
+}
+Dreugh Wax
+{
+	Weakness to Magic
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F51 = AlchWeaknessMagic
+		}
+	}
+	Frenzy
+	{
+		magnitude	= 1
+		duration	= 20
+		Keywords
+		{
+			073F29 = AlchInfluenceAggUp
+		}
+	}
+	Fortify Enchanting
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			03EB29 = AlchFortifyEnchanting
+		}
+	}
+	Fortify Smithing
+	{
+		magnitude	= 5
+		duration	= 30
+		Keywords
+		{
+			03EB1D = AlchFortifySmithing
+		}
+	}
+}
+Elytra Ichor
+{
+	Restore Magicka
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Invisibility
+	{
+		magnitude	= 0
+		duration	= 6
+		Keywords
+		{
+			03EB3D = AlchInvisibillity
+		}
+	}
+	Slow
+	{
+		magnitude	= 50
+		duration	= 10
+		Keywords
+		{
+			073F25 = AlchDamageSpeed
+		}
+	}
+	Fear
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			073F20 = AlchInfluenceConfDown
+		}
+	}
+}
+Fire Petal
+{
+	Damage Health
+	{
+		magnitude	= 3
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Resist Fire
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAEA = AlchResistFire
+		}
+	}
+	Spell Absorption
+	{
+		magnitude	= 50
+		duration	= 60
+		Keywords
+		{
+			000812 = ccBGSSSE037_RaceBretonAbsorbSpellChance
+		}
+	}
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 2
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+}
+Flame Stalk
+{
+	Restore Health
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+	Resist Frost
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAEB = AlchResistFrost
+		}
+	}
+	Weakness to Fire
+	{
+		magnitude	= 4
+		duration	= 30
+		Keywords
+		{
+			073F2D = AlchWeaknessFire
+		}
+	}
+	Invisibility
+	{
+		magnitude	= 0
+		duration	= 6
+		Keywords
+		{
+			03EB3D = AlchInvisibillity
+		}
+	}
+}
+Fungus Stalk
+{
+	Restore Magicka
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Fortify Health
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EAF3 = AlchFortifyHealth
+		}
+	}
+	Fortify Stamina
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EAF9 = AlchFortifyStamina
+		}
+	}
+	Waterbreathing
+	{
+		magnitude	= 0
+		duration	= 8
+		Keywords
+		{
+			03AC2D = AlchWaterbreathing
+		}
+	}
+}
+Aster Bloom Core
+{
+	Resist Magic
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			039E51 = AlchResistMagic
+		}
+	}
+	Fortify Light Armor
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB1F = AlchFortifyLightArmor
+		}
+	}
+	Fortify Block
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB1C = AlchFortifyBlock
+		}
+	}
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 2
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+}
+Blister Pod Cap
+{
+	Restore Magicka
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Fortify Magicka
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EAF8 = AlchFortifyMagicka
+		}
+	}
+	Night Eye
+	{
+		magnitude	= 0
+		duration	= 60
+		Keywords
+		{
+			000803 = ccBGSSSE037_NightEyeEffect
+		}
+	}
+	Invisibility
+	{
+		magnitude	= 0
+		duration	= 6
+		Keywords
+		{
+			03EB3D = AlchInvisibillity
+		}
+	}
+}
+Bittergreen Petals
+{
+	Lingering Damage Stamina
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			10DE5E = AlchDamageStaminaDuration
+		}
+	}
+	Invisibility
+	{
+		magnitude	= 0
+		duration	= 6
+		Keywords
+		{
+			03EB3D = AlchInvisibillity
+		}
+	}
+	Cure Poison
+	{
+		magnitude	= 2
+		duration	= 0
+		Keywords
+		{
+			109ADD = AlchCurePoison
+		}
+	}
+	Damage Magicka
+	{
+		magnitude	= 4
+		duration	= 0
+		Keywords
+		{
+			03A2B6 = AlchDamageMagicka
+		}
+	}
+}
+Bog Beacon
+{
+	Restore Magicka
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Fortify Heavy Armor
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EB1E = AlchFortifyHeavyArmor
+		}
+	}
+	Fear
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			073F20 = AlchInfluenceConfDown
+		}
+	}
+	Damage Stamina
+	{
+		magnitude	= 4
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+}
+Alocasia Fruit
+{
+	Regenerate Stamina
+	{
+		magnitude	= 6
+		duration	= 300
+		Keywords
+		{
+			03EB08 = AlchFortifyStaminaRate
+		}
+	}
+	Light
+	{
+		magnitude	= 0
+		duration	= 60
+		Keywords
+		{
+			000846 = ccBGSSSE037_LightFFSelf
+		}
+	}
+	Ravage Magicka
+	{
+		magnitude	= 3
+		duration	= 10
+		Keywords
+		{
+			073F27 = AlchDamageMagickaRavage
+		}
+	}
+	Regenerate Health
+	{
+		magnitude	= 6
+		duration	= 300
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+}
+Hackle-Lo Leaf
+{
+	Restore Stamina
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 2
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+	Waterbreathing
+	{
+		magnitude	= 0
+		duration	= 8
+		Keywords
+		{
+			03AC2D = AlchWaterbreathing
+		}
+	}
+	Fortify Restoration
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB28 = AlchFortifyRestoration
+		}
+	}
+}
+Gold Kanet
+{
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 2
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+	Ravage Health
+	{
+		magnitude	= 3
+		duration	= 20
+		Keywords
+		{
+			073F26 = AlchDamageHealthRavage
+		}
+	}
+	Weakness to Frost
+	{
+		magnitude	= 4
+		duration	= 30
+		Keywords
+		{
+			073F2E = AlchWeaknessFrost
+		}
+	}
+	Fortify Smithing
+	{
+		magnitude	= 5
+		duration	= 30
+		Keywords
+		{
+			03EB1D = AlchFortifySmithing
+		}
+	}
+}
+Bungler's Bane
+{
+	Slow
+	{
+		magnitude	= 50
+		duration	= 10
+		Keywords
+		{
+			073F25 = AlchDamageSpeed
+		}
+	}
+	Ravage Stamina
+	{
+		magnitude	= 3
+		duration	= 20
+		Keywords
+		{
+			073F23 = AlchDamageStaminaRavage
+		}
+	}
+	Damage Stamina Regen
+	{
+		magnitude	= 100
+		duration	= 10
+		Keywords
+		{
+			073F2C = AlchDamageStaminaRate
+		}
+	}
+	Resist Magic
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			039E51 = AlchResistMagic
+		}
+	}
+}
+Chokeweed
+{
+	Weakness to Frost
+	{
+		magnitude	= 4
+		duration	= 30
+		Keywords
+		{
+			073F2E = AlchWeaknessFrost
+		}
+	}
+	Restore Stamina
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Cure Disease
+	{
+		magnitude	= 2
+		duration	= 0
+		Keywords
+		{
+			0AE722 = AlchCureDisease
+		}
+	}
+	Damage Magicka
+	{
+		magnitude	= 4
+		duration	= 0
+		Keywords
+		{
+			03A2B6 = AlchDamageMagicka
+		}
+	}
+}
+Chokeberry
+{
+	Damage Health
+	{
+		magnitude	= 3
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Ravage Health
+	{
+		magnitude	= 3
+		duration	= 20
+		Keywords
+		{
+			073F26 = AlchDamageHealthRavage
+		}
+	}
+	Lingering Damage Health
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			10AA4A = AlchDamageHealthDuration
+		}
+	}
+	Weakness to Poison
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			090042 = AlchWeaknessPoison
+		}
+	}
+}
+Lichor
+{
+	Restore Magicka
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Regenerate Magicka
+	{
+		magnitude	= 6
+		duration	= 300
+		Keywords
+		{
+			03EB07 = AlchFortifyMagickaRate
+		}
+	}
+	Fortify Magicka
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EAF8 = AlchFortifyMagicka
+		}
+	}
+	Spell Absorption
+	{
+		magnitude	= 50
+		duration	= 60
+		Keywords
+		{
+			000812 = ccBGSSSE037_RaceBretonAbsorbSpellChance
+		}
+	}
+}
+Ambrosia
+{
+	Restore Health
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+	Regenerate Health
+	{
+		magnitude	= 6
+		duration	= 300
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+	Fortify Health
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EAF3 = AlchFortifyHealth
+		}
+	}
+	Cure Poison
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			109ADD = AlchCurePoison
+		}
+	}
+}
+Coda Flower
+{
+	Damage Health
+	{
+		magnitude	= 3
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Lingering Damage Stamina
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			10DE5E = AlchDamageStaminaDuration
+		}
+	}
+	Ravage Magicka
+	{
+		magnitude	= 3
+		duration	= 10
+		Keywords
+		{
+			073F27 = AlchDamageMagickaRavage
+		}
+	}
+	Fortify Carry Weight
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB01 = AlchFortifyCarryWeight
+		}
+	}
+}
+Comberry
+{
+	Damage Stamina
+	{
+		magnitude	= 4
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+	Spell Absorption
+	{
+		magnitude	= 50
+		duration	= 60
+		Keywords
+		{
+			000812 = ccBGSSSE037_RaceBretonAbsorbSpellChance
+		}
+	}
+	Restore Magicka
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Fortify Destruction
+	{
+		magnitude	= 6
+		duration	= 60
+		Keywords
+		{
+			03EB26 = AlchFortifyDestruction
+		}
+	}
+}
+Congealed Putrescence
+{
+	Ravage Health
+	{
+		magnitude	= 3
+		duration	= 20
+		Keywords
+		{
+			073F26 = AlchDamageHealthRavage
+		}
+	}
+	Restore Magicka
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Weakness to Fire
+	{
+		magnitude	= 4
+		duration	= 30
+		Keywords
+		{
+			073F2D = AlchWeaknessFire
+		}
+	}
+	Fortify Conjuration
+	{
+		magnitude	= 6
+		duration	= 60
+		Keywords
+		{
+			03EB25 = AlchFortifyConjuration
+		}
+	}
+}
+Gnarl Bark
+{
+	Damage Health
+	{
+		magnitude	= 3
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Regenerate Health
+	{
+		magnitude	= 6
+		duration	= 300
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+	Fortify Heavy Armor
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EB1E = AlchFortifyHeavyArmor
+		}
+	}
+	Resist Fire
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAEA = AlchResistFire
+		}
+	}
+}
+Corkbulb Root
+{
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 2
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+	Restore Health
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+	Resist Shock
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAEC = AlchResistShock
+		}
+	}
+	Fortify Marksman
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB1B = AlchFortifyMarksman
+		}
+	}
+}
+Daedra Silk
+{
+	Lingering Damage Stamina
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			10DE5E = AlchDamageStaminaDuration
+		}
+	}
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 2
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+	Night Eye
+	{
+		magnitude	= 0
+		duration	= 60
+		Keywords
+		{
+			000803 = ccBGSSSE037_NightEyeEffect
+		}
+	}
+	Invisibility
+	{
+		magnitude	= 0
+		duration	= 6
+		Keywords
+		{
+			03EB3D = AlchInvisibillity
+		}
+	}
+}
+Daedra Venin
+{
+	Ravage Health
+	{
+		magnitude	= 3
+		duration	= 20
+		Keywords
+		{
+			073F26 = AlchDamageHealthRavage
+		}
+	}
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 2
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+	Fortify Destruction
+	{
+		magnitude	= 6
+		duration	= 60
+		Keywords
+		{
+			03EB26 = AlchFortifyDestruction
+		}
+	}
+	Spell Absorption
+	{
+		magnitude	= 50
+		duration	= 60
+		Keywords
+		{
+			000812 = ccBGSSSE037_RaceBretonAbsorbSpellChance
+		}
+	}
+}
+Hunger Tongue
+{
+	Weakness to Fire
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			073F2D = AlchWeaknessFire
+		}
+	}
+	Cure Disease
+	{
+		magnitude	= 2
+		duration	= 0
+		Keywords
+		{
+			0AE722 = AlchCureDisease
+		}
+	}
+	Cure Poison
+	{
+		magnitude	= 2
+		duration	= 0
+		Keywords
+		{
+			109ADD = AlchCurePoison
+		}
+	}
+	Fortify Magicka
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EAF8 = AlchFortifyMagicka
+		}
+	}
+}
+Hydnum Azure Giant Spore
+{
+	Resist Frost
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAEB = AlchResistFrost
+		}
+	}
+	Fortify Health
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EAF3 = AlchFortifyHealth
+		}
+	}
+	Regenerate Health
+	{
+		magnitude	= 6
+		duration	= 300
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+	Light
+	{
+		magnitude	= 0
+		duration	= 60
+		Keywords
+		{
+			000846 = ccBGSSSE037_LightFFSelf
+		}
+	}
+}
+Hypha Facia
+{
+	Weakness to Poison
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			090042 = AlchWeaknessPoison
+		}
+	}
+	Frenzy
+	{
+		magnitude	= 1
+		duration	= 20
+		Keywords
+		{
+			073F29 = AlchInfluenceAggUp
+		}
+	}
+	Ravage Stamina
+	{
+		magnitude	= 3
+		duration	= 20
+		Keywords
+		{
+			073F23 = AlchDamageStaminaRavage
+		}
+	}
+	Resist Magic
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			039E51 = AlchResistMagic
+		}
+	}
+}
+Imp Gall
+{
+	Damage Health
+	{
+		magnitude	= 3
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Weakness to Fire
+	{
+		magnitude	= 4
+		duration	= 30
+		Keywords
+		{
+			073F2D = AlchWeaknessFire
+		}
+	}
+	Fortify Barter
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			03EB23 = AlchFortifyBarter
+		}
+	}
+	Cure Poison
+	{
+		magnitude	= 2
+		duration	= 0
+		Keywords
+		{
+			109ADD = AlchCurePoison
+		}
+	}
+}
+Kagouti Hide
+{
+	Lingering Damage Stamina
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			10DE5E = AlchDamageStaminaDuration
+		}
+	}
+	Night Eye
+	{
+		magnitude	= 0
+		duration	= 60
+		Keywords
+		{
+			000803 = ccBGSSSE037_NightEyeEffect
+		}
+	}
+	Fortify Carry Weight
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB01 = AlchFortifyCarryWeight
+		}
+	}
+	Resist Shock
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAEC = AlchResistShock
+		}
+	}
+}
+Kresh Fiber
+{
+	Weakness to Magic
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F51 = AlchWeaknessMagic
+		}
+	}
+	Slow
+	{
+		magnitude	= 50
+		duration	= 10
+		Keywords
+		{
+			073F25 = AlchDamageSpeed
+		}
+	}
+	Fortify Sneak
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB22 = AlchFortifySneak
+		}
+	}
+	Fortify Pickpocket
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB20 = AlchFortifyPickpocket
+		}
+	}
+}
+Heart of Order
+{
+	Restore Health
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+	Fortify Health
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EAF3 = AlchFortifyHealth
+		}
+	}
+	Fortify One-handed
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB19 = AlchFortifyOneHanded
+		}
+	}
+	Fortify Two-handed
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB1A = AlchFortifyTwoHanded
+		}
+	}
+}
+Luminous Russula
+{
+	Lingering Damage Stamina
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			10DE5E = AlchDamageStaminaDuration
+		}
+	}
+	Lingering Damage Health
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			10AA4A = AlchDamageHealthDuration
+		}
+	}
+	Waterbreathing
+	{
+		magnitude	= 0
+		duration	= 8
+		Keywords
+		{
+			03AC2D = AlchWaterbreathing
+		}
+	}
+	Fear
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			073F20 = AlchInfluenceConfDown
+		}
+	}
+}
+Marshmerrow
+{
+	Restore Health
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+	Fortify Carry Weight
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB01 = AlchFortifyCarryWeight
+		}
+	}
+	Weakness to Magic
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F51 = AlchWeaknessMagic
+		}
+	}
+	Damage Stamina
+	{
+		magnitude	= 4
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+}
+Minotaur Horn
+{
+	Resist Poison
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			090041 = AlchResistPoison
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 10
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+	Regenerate Health
+	{
+		magnitude	= 6
+		duration	= 300
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+	Regenerate Magicka
+	{
+		magnitude	= 6
+		duration	= 300
+		Keywords
+		{
+			03EB07 = AlchFortifyMagickaRate
+		}
+	}
+}
+Ogre's Teeth
+{
+	Weakness to Shock
+	{
+		magnitude	= 4
+		duration	= 30
+		Keywords
+		{
+			073F2F = AlchWeaknessShock
+		}
+	}
+	Resist Poison
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			090041 = AlchResistPoison
+		}
+	}
+	Lingering Damage Magicka
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			10DE5F = AlchDamageMagickaDuration
+		}
+	}
+	Regenerate Health
+	{
+		magnitude	= 6
+		duration	= 300
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+}
+Red Kelp Gas Bladder
+{
+	Regenerate Stamina
+	{
+		magnitude	= 6
+		duration	= 300
+		Keywords
+		{
+			03EB08 = AlchFortifyStaminaRate
+		}
+	}
+	Waterbreathing
+	{
+		magnitude	= 0
+		duration	= 8
+		Keywords
+		{
+			03AC2D = AlchWaterbreathing
+		}
+	}
+	Cure Disease
+	{
+		magnitude	= 2
+		duration	= 0
+		Keywords
+		{
+			0AE722 = AlchCureDisease
+		}
+	}
+	Fortify Magicka
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EAF8 = AlchFortifyMagicka
+		}
+	}
+}
+Roobrush
+{
+	Weakness to Magic
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F51 = AlchWeaknessMagic
+		}
+	}
+	Fortify Sneak
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB22 = AlchFortifySneak
+		}
+	}
+	Lingering Damage Health
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			10AA4A = AlchDamageHealthDuration
+		}
+	}
+	Cure Poison
+	{
+		magnitude	= 2
+		duration	= 0
+		Keywords
+		{
+			109ADD = AlchCurePoison
+		}
+	}
+}
+Redwort Flower
+{
+	Resist Frost
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAEB = AlchResistFrost
+		}
+	}
+	Cure Poison
+	{
+		magnitude	= 2
+		duration	= 0
+		Keywords
+		{
+			109ADD = AlchCurePoison
+		}
+	}
+	Damage Health
+	{
+		magnitude	= 3
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Invisibility
+	{
+		magnitude	= 0
+		duration	= 6
+		Keywords
+		{
+			03EB3D = AlchInvisibillity
+		}
+	}
+}
+Scalon Fin
+{
+	Waterbreathing
+	{
+		magnitude	= 0
+		duration	= 8
+		Keywords
+		{
+			03AC2D = AlchWaterbreathing
+		}
+	}
+	Damage Health
+	{
+		magnitude	= 3
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Lingering Damage Magicka
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			10DE5F = AlchDamageMagickaDuration
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 10
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+}
+Saltrice
+{
+	Restore Stamina
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Fortify Magicka
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EAF8 = AlchFortifyMagicka
+		}
+	}
+	Damage Stamina Regen
+	{
+		magnitude	= 100
+		duration	= 10
+		Keywords
+		{
+			073F2C = AlchDamageStaminaRate
+		}
+	}
+	Restore Health
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+}
+Scrib Jelly
+{
+	Regenerate Magicka
+	{
+		magnitude	= 6
+		duration	= 300
+		Keywords
+		{
+			03EB07 = AlchFortifyMagickaRate
+		}
+	}
+	Cure Poison
+	{
+		magnitude	= 2
+		duration	= 0
+		Keywords
+		{
+			109ADD = AlchCurePoison
+		}
+	}
+	Cure Disease
+	{
+		magnitude	= 2
+		duration	= 0
+		Keywords
+		{
+			0AE722 = AlchCureDisease
+		}
+	}
+	Regenerate Stamina
+	{
+		magnitude	= 6
+		duration	= 300
+		Keywords
+		{
+			03EB08 = AlchFortifyStaminaRate
+		}
+	}
+}
+Scrib Jerky
+{
+	Restore Stamina
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Fortify Stamina
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EAF9 = AlchFortifyStamina
+		}
+	}
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 2
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+	Waterbreathing
+	{
+		magnitude	= 0
+		duration	= 8
+		Keywords
+		{
+			03AC2D = AlchWaterbreathing
+		}
+	}
+}
+Purple Butterfly Wing
+{
+	Regenerate Health
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+	Regenerate Magicka
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB07 = AlchFortifyMagickaRate
+		}
+	}
+	Regenerate Stamina
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB08 = AlchFortifyStaminaRate
+		}
+	}
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 1
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+}
+Bliss Bug Thorax
+{
+	Weakness to Fire
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2D = AlchWeaknessFire
+		}
+	}
+	Resist Fire
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEA = AlchResistFire
+		}
+	}
+	Fortify Heavy Armor
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			03EB1E = AlchFortifyHeavyArmor
+		}
+	}
+	Fortify Illusion
+	{
+		magnitude	= 1
+		duration	= 60
+		Keywords
+		{
+			03EB27 = AlchFortifyIllusion
+		}
+	}
+}
+Flame Stalk
+{
+	Restore Health
+	{
+		magnitude	= 6
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+	Resist Frost
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAEB = AlchResistFrost
+		}
+	}
+	Weakness to Fire
+	{
+		magnitude	= 4
+		duration	= 30
+		Keywords
+		{
+			073F2D = AlchWeaknessFire
+		}
+	}
+	Invisibility
+	{
+		magnitude	= 0
+		duration	= 6
+		Keywords
+		{
+			03EB3D = AlchInvisibillity
+		}
+	}
+}
+Green Butterfly Wing
+{
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Fear
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			073F20 = AlchInfluenceConfDown
+		}
+	}
+	Slow
+	{
+		magnitude	= 5
+		duration	= 30
+		Keywords
+		{
+			073F25 = AlchDamageSpeed
+		}
+	}
+	Invisibility
+	{
+		magnitude	= 0
+		duration	= 4
+		Keywords
+		{
+			03EB3D = AlchInvisibillity
+		}
+	}
+}
+Angelfish
+{
+	Regenerate Health
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+	Resist Fire
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEA = AlchResistFire
+		}
+	}
+	Fortify Marksman
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB1B = AlchFortifyMarksman
+		}
+	}
+	Waterbreathing
+	{
+		magnitude	= 0
+		duration	= 5
+		Keywords
+		{
+			03AC2D = AlchWaterbreathing
+		}
+	}
+}
+Angler Larvae
+{
+	Lingering Damage Health
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10AA4A = AlchDamageHealthDuration
+		}
+	}
+	Regenerate Stamina
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB08 = AlchFortifyStaminaRate
+		}
+	}
+	Waterbreathing
+	{
+		magnitude	= 0
+		duration	= 5
+		Keywords
+		{
+			03AC2D = AlchWaterbreathing
+		}
+	}
+	Fortify Two-handed
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB1A = AlchFortifyTwoHanded
+		}
+	}
+}
+Pearlfish
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Resist Frost
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEB = AlchResistFrost
+		}
+	}
+	Fortify Smithing
+	{
+		magnitude	= 4
+		duration	= 30
+		Keywords
+		{
+			03EB1D = AlchFortifySmithing
+		}
+	}
+	Fortify One-handed
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB19 = AlchFortifyOneHanded
+		}
+	}
+}
+Spadefish
+{
+	Restore Health
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+	Fortify Lockpicking
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			03EB21 = AlchFortifyLockpicking
+		}
+	}
+	Fortify Pickpocket
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB20 = AlchFortifyPickpocket
+		}
+	}
+	Cure Disease
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			0AE722 = AlchCureDisease
+		}
+	}
+}
+Glassfish
+{
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Invisibility
+	{
+		magnitude	= 0
+		duration	= 4
+		Keywords
+		{
+			03EB3D = AlchInvisibillity
+		}
+	}
+	Fortify Illusion
+	{
+		magnitude	= 1
+		duration	= 60
+		Keywords
+		{
+			03EB27 = AlchFortifyIllusion
+		}
+	}
+	Fortify Persuasion
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			0D6947 = AlchFortifyPersuasion
+		}
+	}
+}
+Pygmy Sunfish
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Lingering Damage Magicka
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10DE5F = AlchDamageMagickaDuration
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+	Fortify Restoration
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB28 = AlchFortifyRestoration
+		}
+	}
+}
+Juvenile Mudcrab
+{
+	Regenerate Stamina
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB08 = AlchFortifyStaminaRate
+		}
+	}
+	Fortify Carry Weight
+	{
+		magnitude	= 4
+		duration	= 300
+		Keywords
+		{
+			03EB01 = AlchFortifyCarryWeight
+		}
+	}
+	Cure Disease
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			0AE722 = AlchCureDisease
+		}
+	}
+	Fortify Two-handed
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB1A = AlchFortifyTwoHanded
+		}
+	}
+}
+Lyretail Anthias
+{
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Fortify Alteration
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB24 = AlchFortifyAlteration
+		}
+	}
+	Fortify Conjuration
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB25 = AlchFortifyConjuration
+		}
+	}
+	Fortify Carry Weight
+	{
+		magnitude	= 4
+		duration	= 300
+		Keywords
+		{
+			03EB01 = AlchFortifyCarryWeight
+		}
+	}
+}
+Goldfish
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Fortify Heavy Armor
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			03EB1E = AlchFortifyHeavyArmor
+		}
+	}
+	Waterbreathing
+	{
+		magnitude	= 0
+		duration	= 5
+		Keywords
+		{
+			03AC2D = AlchWaterbreathing
+		}
+	}
+	Resist Frost
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEB = AlchResistFrost
+		}
+	}
+}
+Felsaad Tern Feathers
+{
+	Restore Health
+	{
+		magnitude	= 1
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+	Fortify Light Armor
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			03EB1F = AlchFortifyLightArmor
+		}
+	}
+	Cure Disease
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			0AE722 = AlchCureDisease
+		}
+	}
+	Resist Magic
+	{
+		magnitude	= 1
+		duration	= 60
+		Keywords
+		{
+			039E51 = AlchResistMagic
+		}
+	}
+}
+Emperor Parasol Moss
+{
+	Damage Health
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Fortify Magicka
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF8 = AlchFortifyMagicka
+		}
+	}
+	Regenerate Health
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+	Fortify Two-handed
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB1A = AlchFortifyTwoHanded
+		}
+	}
+}
+Ash Creep Cluster
+{
+	Damage Stamina
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+	Invisibility
+	{
+		magnitude	= 0
+		duration	= 4
+		Keywords
+		{
+			03EB3D = AlchInvisibillity
+		}
+	}
+	Resist Fire
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEA = AlchResistFire
+		}
+	}
+	Fortify Destruction
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB26 = AlchFortifyDestruction
+		}
+	}
+}
+Netch Jelly
+{
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 1
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+	Fortify Carry Weight
+	{
+		magnitude	= 4
+		duration	= 300
+		Keywords
+		{
+			03EB01 = AlchFortifyCarryWeight
+		}
+	}
+	Restore Stamina
+	{
+		magnitude	= 10
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Fear
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			073F20 = AlchInfluenceConfDown
+		}
+	}
+}
+Ash Hopper Jelly
+{
+	Restore Health
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+	Fortify Light Armor
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			03EB1F = AlchFortifyLightArmor
+		}
+	}
+	Resist Shock
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEC = AlchResistShock
+		}
+	}
+	Weakness to Frost
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2E = AlchWeaknessFrost
+		}
+	}
+}
+Boar Tusk
+{
+	Fortify Stamina
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EAF9 = AlchFortifyStamina
+		}
+	}
+	Fortify Health
+	{
+		magnitude	= 4
+		duration	= 300
+		Keywords
+		{
+			03EAF3 = AlchFortifyHealth
+		}
+	}
+	Fortify Block
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB1C = AlchFortifyBlock
+		}
+	}
+	Frenzy
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			073F29 = AlchInfluenceAggUp
+		}
+	}
+}
+Burnt Spriggan Wood
+{
+	Weakness to Fire
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2D = AlchWeaknessFire
+		}
+	}
+	Fortify Alteration
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB24 = AlchFortifyAlteration
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+	Slow
+	{
+		magnitude	= 50
+		duration	= 5
+		Keywords
+		{
+			073F25 = AlchDamageSpeed
+		}
+	}
+}
+Spawn Ash
+{
+	Ravage Stamina
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F23 = AlchDamageStaminaRavage
+		}
+	}
+	Resist Fire
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEA = AlchResistFire
+		}
+	}
+	Fortify Enchanting
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			03EB29 = AlchFortifyEnchanting
+		}
+	}
+	Ravage Magicka
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F27 = AlchDamageMagickaRavage
+		}
+	}
+}
+Scathecraw
+{
+	Ravage Health
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F26 = AlchDamageHealthRavage
+		}
+	}
+	Ravage Stamina
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F23 = AlchDamageStaminaRavage
+		}
+	}
+	Ravage Magicka
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F27 = AlchDamageMagickaRavage
+		}
+	}
+	Lingering Damage Health
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10AA4A = AlchDamageHealthDuration
+		}
+	}
+}
+Trama Root
+{
+	Weakness to Shock
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2F = AlchWeaknessShock
+		}
+	}
+	Fortify Carry Weight
+	{
+		magnitude	= 4
+		duration	= 300
+		Keywords
+		{
+			03EB01 = AlchFortifyCarryWeight
+		}
+	}
+	Damage Magicka
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2B6 = AlchDamageMagicka
+		}
+	}
+	Slow
+	{
+		magnitude	= 50
+		duration	= 5
+		Keywords
+		{
+			073F25 = AlchDamageSpeed
+		}
+	}
+}
+Ashen Grass Pod
+{
+	Resist Fire
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAEA = AlchResistFire
+		}
+	}
+	Weakness to Shock
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2F = AlchWeaknessShock
+		}
+	}
+	Fortify Lockpicking
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			03EB21 = AlchFortifyLockpicking
+		}
+	}
+	Fortify Sneak
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB22 = AlchFortifySneak
+		}
+	}
+}
+Hawk's Egg
+{
+	Resist Magic
+	{
+		magnitude	= 1
+		duration	= 60
+		Keywords
+		{
+			039E51 = AlchResistMagic
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+	Waterbreathing
+	{
+		magnitude	= 0
+		duration	= 5
+		Keywords
+		{
+			03AC2D = AlchWaterbreathing
+		}
+	}
+	Lingering Damage Stamina
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10DE5E = AlchDamageStaminaDuration
+		}
+	}
+}
+Salmon Roe
+{
+	Restore Stamina
+	{
+		magnitude	= 2
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Waterbreathing
+	{
+		magnitude	= 0
+		duration	= 60
+		Keywords
+		{
+			03AC2D = AlchWaterbreathing
+		}
+	}
+	Fortify Magicka
+	{
+		magnitude	= 50
+		duration	= 5
+		Keywords
+		{
+			03EAF8 = AlchFortifyMagicka
+		}
+	}
+	Regenerate Magicka
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB07 = AlchFortifyMagickaRate
+		}
+	}
+}
+Yellow Mountain Flower
+{
+	Resist Poison
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			090041 = AlchResistPoison
+		}
+	}
+	Fortify Restoration
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB28 = AlchFortifyRestoration
+		}
+	}
+	Fortify Health
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF3 = AlchFortifyHealth
+		}
+	}
+	Damage Stamina Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2C = AlchDamageStaminaRate
+		}
+	}
+}
+Poison Bloom
+{
+	Damage Health
+	{
+		magnitude	= 3
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Slow
+	{
+		magnitude	= 50
+		duration	= 5
+		Keywords
+		{
+			073F25 = AlchDamageSpeed
+		}
+	}
+	Fortify Carry Weight
+	{
+		magnitude	= 4
+		duration	= 300
+		Keywords
+		{
+			03EB01 = AlchFortifyCarryWeight
+		}
+	}
+	Fear
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			073F20 = AlchInfluenceConfDown
+		}
+	}
+}
+Chaurus Hunter Antennae
+{
+	Damage Stamina
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+	Fortify Conjuration
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB25 = AlchFortifyConjuration
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+	Fortify Enchanting
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			03EB29 = AlchFortifyEnchanting
+		}
+	}
+}
+Gleamblossom
+{
+	Resist Magic
+	{
+		magnitude	= 1
+		duration	= 60
+		Keywords
+		{
+			039E51 = AlchResistMagic
+		}
+	}
+	Fear
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			073F20 = AlchInfluenceConfDown
+		}
+	}
+	Regenerate Health
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 1
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+}
+Ancestor Moth Wing
+{
+	Damage Stamina
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+	Fortify Conjuration
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB25 = AlchFortifyConjuration
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+	Fortify Enchanting
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			03EB29 = AlchFortifyEnchanting
+		}
+	}
+}
+Thorn Hook
+{
+	Lingering Damage Health
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10AA4A = AlchDamageHealthDuration
+		}
+	}
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 1
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+	Regenerate Magicka
+	{
+		magnitude	= 3
+		duration	= 180
+		Keywords
+		{
+			03EB07 = AlchFortifyMagickaRate
+		}
+	}
+	Regenerate Health
+	{
+		magnitude	= 3
+		duration	= 180
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+}
+Screaming Maw
+{
+	Regenerate Magicka
+	{
+		magnitude	= 20
+		duration	= 60
+		Keywords
+		{
+			03EB07 = AlchFortifyMagickaRate
+		}
+	}
+	Fortify Alteration
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB24 = AlchFortifyAlteration
+		}
+	}
+	Invisibility
+	{
+		magnitude	= 0
+		duration	= 1
+		Keywords
+		{
+			03EB3D = AlchInvisibillity
+		}
+	}
+	Regenerate Health
+	{
+		magnitude	= 20
+		duration	= 10
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+}
+Rot Scale
+{
+	Slow
+	{
+		magnitude	= 5
+		duration	= 30
+		Keywords
+		{
+			073F25 = AlchDamageSpeed
+		}
+	}
+	Lingering Damage Health
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			10AA4A = AlchDamageHealthDuration
+		}
+	}
+	Fear
+	{
+		magnitude	= 1
+		duration	= 5
+		Keywords
+		{
+			073F20 = AlchInfluenceConfDown
+		}
+	}
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 1
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+}
+Silverside Perch
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Damage Stamina Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2C = AlchDamageStaminaRate
+		}
+	}
+	Ravage Health
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F26 = AlchDamageHealthRavage
+		}
+	}
+	Resist Frost
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEB = AlchResistFrost
+		}
+	}
+}
+Abecean Longfin
+{
+	Weakness to Frost
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2E = AlchWeaknessFrost
+		}
+	}
+	Fortify Sneak
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB22 = AlchFortifySneak
+		}
+	}
+	Weakness to Poison
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			090042 = AlchWeaknessPoison
+		}
+	}
+	Fortify Restoration
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB28 = AlchFortifyRestoration
+		}
+	}
+}
+River Betty
+{
+	Damage Health
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Fortify Alteration
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB24 = AlchFortifyAlteration
+		}
+	}
+	Slow
+	{
+		magnitude	= 50
+		duration	= 5
+		Keywords
+		{
+			073F25 = AlchDamageSpeed
+		}
+	}
+	Fortify Carry Weight
+	{
+		magnitude	= 4
+		duration	= 300
+		Keywords
+		{
+			03EB01 = AlchFortifyCarryWeight
+		}
+	}
+}
+Cyrodilic Spadetail
+{
+	Damage Stamina
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+	Fortify Restoration
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB28 = AlchFortifyRestoration
+		}
+	}
+	Fear
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			073F20 = AlchInfluenceConfDown
+		}
+	}
+	Ravage Health
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F26 = AlchDamageHealthRavage
+		}
+	}
+}
+Histcarp
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Fortify Magicka
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF8 = AlchFortifyMagicka
+		}
+	}
+	Damage Stamina Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2C = AlchDamageStaminaRate
+		}
+	}
+	Waterbreathing
+	{
+		magnitude	= 0
+		duration	= 5
+		Keywords
+		{
+			03AC2D = AlchWaterbreathing
+		}
+	}
+}
+Human Flesh
+{
+	Damage Health
+	{
+		magnitude	= 2
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 1
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Fortify Sneak
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB22 = AlchFortifySneak
+		}
+	}
+}
+Dwarven Oil
+{
+	Weakness to Magic
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			073F51 = AlchWeaknessMagic
+		}
+	}
+	Fortify Illusion
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB27 = AlchFortifyIllusion
+		}
+	}
+	Regenerate Magicka
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB07 = AlchFortifyMagickaRate
+		}
+	}
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+}
+Mora Tapinella
+{
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Lingering Damage Health
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10AA4A = AlchDamageHealthDuration
+		}
+	}
+	Regenerate Stamina
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB08 = AlchFortifyStaminaRate
+		}
+	}
+	Fortify Illusion
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB27 = AlchFortifyIllusion
+		}
+	}
+}
+Moon Sugar
+{
+	Weakness to Fire
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2D = AlchWeaknessFire
+		}
+	}
+	Resist Frost
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEB = AlchResistFrost
+		}
+	}
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Regenerate Magicka
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB07 = AlchFortifyMagickaRate
+		}
+	}
+}
+Crimson Nirnroot
+{
+	Damage Health
+	{
+		magnitude	= 6
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Damage Stamina
+	{
+		magnitude	= 9
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+	Invisibility
+	{
+		magnitude	= 0
+		duration	= 4
+		Keywords
+		{
+			03EB3D = AlchInvisibillity
+		}
+	}
+	Resist Magic
+	{
+		magnitude	= 1
+		duration	= 60
+		Keywords
+		{
+			039E51 = AlchResistMagic
+		}
+	}
+}
+Honeycomb
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Fortify Block
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			03EB1C = AlchFortifyBlock
+		}
+	}
+	Fortify Light Armor
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			03EB1F = AlchFortifyLightArmor
+		}
+	}
+	Ravage Stamina
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F23 = AlchDamageStaminaRavage
+		}
+	}
+}
+Bee
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Ravage Stamina
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F23 = AlchDamageStaminaRavage
+		}
+	}
+	Regenerate Stamina
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB08 = AlchFortifyStaminaRate
+		}
+	}
+	Weakness to Shock
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2F = AlchWeaknessShock
+		}
+	}
+}
+Beehive Husk
+{
+	Resist Poison
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			090041 = AlchResistPoison
+		}
+	}
+	Fortify Light Armor
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			03EB1F = AlchFortifyLightArmor
+		}
+	}
+	Fortify Sneak
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			03EB22 = AlchFortifySneak
+		}
+	}
+	Fortify Destruction
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB26 = AlchFortifyDestruction
+		}
+	}
+}
+Small Pearl
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Fortify One-handed
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB19 = AlchFortifyOneHanded
+		}
+	}
+	Fortify Restoration
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB28 = AlchFortifyRestoration
+		}
+	}
+	Resist Frost
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEB = AlchResistFrost
+		}
+	}
+}
+Pearl
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Fortify Block
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB1C = AlchFortifyBlock
+		}
+	}
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Resist Shock
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEC = AlchResistShock
+		}
+	}
+}
+Berit's Ashes
+{
+	Damage Stamina
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+	Resist Fire
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEA = AlchResistFire
+		}
+	}
+	Fortify Conjuration
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB25 = AlchFortifyConjuration
+		}
+	}
+	Ravage Stamina
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F23 = AlchDamageStaminaRavage
+		}
+	}
+}
+Powdered Mammoth Tusk
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Fortify Sneak
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB22 = AlchFortifySneak
+		}
+	}
+	Weakness to Fire
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2D = AlchWeaknessFire
+		}
+	}
+	Fear
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			073F20 = AlchInfluenceConfDown
+		}
+	}
+}
+Wisp Wrappings
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Fortify Destruction
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB26 = AlchFortifyDestruction
+		}
+	}
+	Fortify Carry Weight
+	{
+		magnitude	= 4
+		duration	= 300
+		Keywords
+		{
+			03EB01 = AlchFortifyCarryWeight
+		}
+	}
+	Resist Magic
+	{
+		magnitude	= 1
+		duration	= 60
+		Keywords
+		{
+			039E51 = AlchResistMagic
+		}
+	}
+}
+Small Antlers
+{
+	Weakness to Poison
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			090042 = AlchWeaknessPoison
+		}
+	}
+	Fortify Restoration
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB28 = AlchFortifyRestoration
+		}
+	}
+	Lingering Damage Stamina
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10DE5E = AlchDamageStaminaDuration
+		}
+	}
+	Damage Health
+	{
+		magnitude	= 2
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+}
+Large Antlers
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Fortify Stamina
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF9 = AlchFortifyStamina
+		}
+	}
+	Slow
+	{
+		magnitude	= 5
+		duration	= 30
+		Keywords
+		{
+			073F25 = AlchDamageSpeed
+		}
+	}
+	Damage Stamina Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2C = AlchDamageStaminaRate
+		}
+	}
+}
+Eye of Sabre Cat
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Ravage Health
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F26 = AlchDamageHealthRavage
+		}
+	}
+	Damage Magicka
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2B6 = AlchDamageMagicka
+		}
+	}
+	Restore Health
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+}
+Sabre Cat Tooth
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Fortify Heavy Armor
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			03EB1E = AlchFortifyHeavyArmor
+		}
+	}
+	Fortify Smithing
+	{
+		magnitude	= 4
+		duration	= 30
+		Keywords
+		{
+			03EB1D = AlchFortifySmithing
+		}
+	}
+	Weakness to Poison
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			090042 = AlchWeaknessPoison
+		}
+	}
+}
+Bear Claws
+{
+	Restore Stamina
+	{
+		magnitude	= 4
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Fortify Health
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF3 = AlchFortifyHealth
+		}
+	}
+	Fortify One-handed
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB19 = AlchFortifyOneHanded
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+}
+Mudcrab Chitin
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Cure Disease
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			0AE722 = AlchCureDisease
+		}
+	}
+	Resist Poison
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			090041 = AlchResistPoison
+		}
+	}
+	Resist Fire
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEA = AlchResistFire
+		}
+	}
+}
+Chicken's Egg
+{
+	Resist Magic
+	{
+		magnitude	= 1
+		duration	= 60
+		Keywords
+		{
+			039E51 = AlchResistMagic
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+	Waterbreathing
+	{
+		magnitude	= 0
+		duration	= 5
+		Keywords
+		{
+			03AC2D = AlchWaterbreathing
+		}
+	}
+	Lingering Damage Stamina
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10DE5E = AlchDamageStaminaDuration
+		}
+	}
+}
+Pine Thrush Egg
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Fortify Lockpicking
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			03EB21 = AlchFortifyLockpicking
+		}
+	}
+	Weakness to Poison
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			090042 = AlchWeaknessPoison
+		}
+	}
+	Resist Shock
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEC = AlchResistShock
+		}
+	}
+}
+Hawk Feathers
+{
+	Cure Disease
+	{
+		magnitude	= 2
+		duration	= 0
+		Keywords
+		{
+			0AE722 = AlchCureDisease
+		}
+	}
+	Fortify Light Armor
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			03EB1F = AlchFortifyLightArmor
+		}
+	}
+	Fortify One-handed
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB19 = AlchFortifyOneHanded
+		}
+	}
+	Fortify Sneak
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB22 = AlchFortifySneak
+		}
+	}
+}
+Hawk Beak
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Resist Frost
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEB = AlchResistFrost
+		}
+	}
+	Fortify Carry Weight
+	{
+		magnitude	= 4
+		duration	= 300
+		Keywords
+		{
+			03EB01 = AlchFortifyCarryWeight
+		}
+	}
+	Resist Shock
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEC = AlchResistShock
+		}
+	}
+}
+Blue Dartwing
+{
+	Resist Shock
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEC = AlchResistShock
+		}
+	}
+	Fortify Pickpocket
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB20 = AlchFortifyPickpocket
+		}
+	}
+	Restore Health
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+	Fear
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			073F20 = AlchInfluenceConfDown
+		}
+	}
+}
+Torchbug Thorax
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Lingering Damage Magicka
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10DE5F = AlchDamageMagickaDuration
+		}
+	}
+	Weakness to Magic
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			073F51 = AlchWeaknessMagic
+		}
+	}
+	Fortify Stamina
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF9 = AlchFortifyStamina
+		}
+	}
+}
+Blisterwort
+{
+	Damage Stamina
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+	Frenzy
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			073F29 = AlchInfluenceAggUp
+		}
+	}
+	Restore Health
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+	Fortify Smithing
+	{
+		magnitude	= 4
+		duration	= 30
+		Keywords
+		{
+			03EB1D = AlchFortifySmithing
+		}
+	}
+}
+Namira's Rot
+{
+	Damage Magicka
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2B6 = AlchDamageMagicka
+		}
+	}
+	Fortify Lockpicking
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			03EB21 = AlchFortifyLockpicking
+		}
+	}
+	Fear
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			073F20 = AlchInfluenceConfDown
+		}
+	}
+	Regenerate Health
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+}
+Imp Stool
+{
+	Damage Health
+	{
+		magnitude	= 2
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Lingering Damage Health
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10AA4A = AlchDamageHealthDuration
+		}
+	}
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 1
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+	Restore Health
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+}
+White Cap
+{
+	Weakness to Frost
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2E = AlchWeaknessFrost
+		}
+	}
+	Fortify Heavy Armor
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			03EB1E = AlchFortifyHeavyArmor
+		}
+	}
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Ravage Magicka
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F27 = AlchDamageMagickaRavage
+		}
+	}
+}
+Bleeding Crown
+{
+	Weakness to Fire
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2D = AlchWeaknessFire
+		}
+	}
+	Fortify Block
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB1C = AlchFortifyBlock
+		}
+	}
+	Weakness to Poison
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			090042 = AlchWeaknessPoison
+		}
+	}
+	Resist Magic
+	{
+		magnitude	= 1
+		duration	= 60
+		Keywords
+		{
+			039E51 = AlchResistMagic
+		}
+	}
+}
+Fly Amanita
+{
+	Resist Fire
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEA = AlchResistFire
+		}
+	}
+	Fortify Two-handed
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB1A = AlchFortifyTwoHanded
+		}
+	}
+	Frenzy
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			073F29 = AlchInfluenceAggUp
+		}
+	}
+	Regenerate Stamina
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB08 = AlchFortifyStaminaRate
+		}
+	}
+}
+Jarrin Root
+{
+	Damage Health
+	{
+		magnitude	= 200
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Damage Magicka
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2B6 = AlchDamageMagicka
+		}
+	}
+	Damage Stamina
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+}
+Orange Dartwing
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Ravage Magicka
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F27 = AlchDamageMagickaRavage
+		}
+	}
+	Fortify Pickpocket
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB20 = AlchFortifyPickpocket
+		}
+	}
+	Lingering Damage Health
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10AA4A = AlchDamageHealthDuration
+		}
+	}
+}
+Creep Cluster
+{
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Damage Stamina Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2C = AlchDamageStaminaRate
+		}
+	}
+	Fortify Carry Weight
+	{
+		magnitude	= 4
+		duration	= 300
+		Keywords
+		{
+			03EB01 = AlchFortifyCarryWeight
+		}
+	}
+	Weakness to Magic
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			073F51 = AlchWeaknessMagic
+		}
+	}
+}
+Human Heart
+{
+	Damage Health
+	{
+		magnitude	= 2
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Damage Magicka
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2B6 = AlchDamageMagicka
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+	Frenzy
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			073F29 = AlchInfluenceAggUp
+		}
+	}
+}
+Spider Egg
+{
+	Damage Stamina
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+	Fortify Lockpicking
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			03EB21 = AlchFortifyLockpicking
+		}
+	}
+	Fortify Marksman
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB1B = AlchFortifyMarksman
+		}
+	}
+}
+Jazbay Grapes
+{
+	Weakness to Magic
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			073F51 = AlchWeaknessMagic
+		}
+	}
+	Fortify Magicka
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF8 = AlchFortifyMagicka
+		}
+	}
+	Regenerate Magicka
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB07 = AlchFortifyMagickaRate
+		}
+	}
+	Ravage Health
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F26 = AlchDamageHealthRavage
+		}
+	}
+}
+Dragon's Tongue
+{
+	Resist Fire
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEA = AlchResistFire
+		}
+	}
+	Fortify Barter
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			03EB23 = AlchFortifyBarter
+		}
+	}
+	Fortify Illusion
+	{
+		magnitude	= 1
+		duration	= 60
+		Keywords
+		{
+			03EB27 = AlchFortifyIllusion
+		}
+	}
+	Fortify Two-handed
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB1A = AlchFortifyTwoHanded
+		}
+	}
+}
+Grass Pod
+{
+	Resist Poison
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			090041 = AlchResistPoison
+		}
+	}
+	Ravage Magicka
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F27 = AlchDamageMagickaRavage
+		}
+	}
+	Fortify Alteration
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB24 = AlchFortifyAlteration
+		}
+	}
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+}
+Glowing Mushroom
+{
+	Resist Shock
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEC = AlchResistShock
+		}
+	}
+	Fortify Destruction
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB26 = AlchFortifyDestruction
+		}
+	}
+	Fortify Smithing
+	{
+		magnitude	= 4
+		duration	= 30
+		Keywords
+		{
+			03EB1D = AlchFortifySmithing
+		}
+	}
+	Fortify Health
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF3 = AlchFortifyHealth
+		}
+	}
+}
+Nordic Barnacle
+{
+	Damage Magicka
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2B6 = AlchDamageMagicka
+		}
+	}
+	Waterbreathing
+	{
+		magnitude	= 0
+		duration	= 5
+		Keywords
+		{
+			03AC2D = AlchWaterbreathing
+		}
+	}
+	Regenerate Health
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+	Fortify Pickpocket
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB20 = AlchFortifyPickpocket
+		}
+	}
+}
+Rock Warbler Egg
+{
+	Restore Health
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+	Fortify One-handed
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB19 = AlchFortifyOneHanded
+		}
+	}
+	Damage Stamina
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+	Weakness to Magic
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			073F51 = AlchWeaknessMagic
+		}
+	}
+}
+Slaughterfish Egg
+{
+	Resist Poison
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			090041 = AlchResistPoison
+		}
+	}
+	Fortify Pickpocket
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB20 = AlchFortifyPickpocket
+		}
+	}
+	Lingering Damage Health
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10AA4A = AlchDamageHealthDuration
+		}
+	}
+	Fortify Stamina
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF9 = AlchFortifyStamina
+		}
+	}
+}
+Giant Lichen
+{
+	Weakness to Shock
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2F = AlchWeaknessShock
+		}
+	}
+	Ravage Health
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F26 = AlchDamageHealthRavage
+		}
+	}
+	Weakness to Poison
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			090042 = AlchWeaknessPoison
+		}
+	}
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+}
+Swamp Fungal Pod
+{
+	Resist Shock
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEC = AlchResistShock
+		}
+	}
+	Lingering Damage Magicka
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10DE5F = AlchDamageMagickaDuration
+		}
+	}
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 1
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+	Restore Health
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+}
+Purple Mountain Flower
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Fortify Sneak
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB22 = AlchFortifySneak
+		}
+	}
+	Lingering Damage Magicka
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10DE5F = AlchDamageMagickaDuration
+		}
+	}
+	Resist Frost
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEB = AlchResistFrost
+		}
+	}
+}
+Red Mountain Flower
+{
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Ravage Magicka
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F27 = AlchDamageMagickaRavage
+		}
+	}
+	Fortify Magicka
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF8 = AlchFortifyMagicka
+		}
+	}
+	Damage Health
+	{
+		magnitude	= 2
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+}
+Blue Mountain Flower
+{
+	Restore Health
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+	Fortify Conjuration
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB25 = AlchFortifyConjuration
+		}
+	}
+	Fortify Health
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF3 = AlchFortifyHealth
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+}
+Butterfly Wing
+{
+	Restore Health
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+	Fortify Barter
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			03EB23 = AlchFortifyBarter
+		}
+	}
+	Lingering Damage Stamina
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10DE5E = AlchDamageStaminaDuration
+		}
+	}
+	Damage Magicka
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2B6 = AlchDamageMagicka
+		}
+	}
+}
+Luna Moth Wing
+{
+	Damage Magicka
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2B6 = AlchDamageMagicka
+		}
+	}
+	Fortify Light Armor
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			03EB1F = AlchFortifyLightArmor
+		}
+	}
+	Regenerate Health
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+	Invisibility
+	{
+		magnitude	= 0
+		duration	= 4
+		Keywords
+		{
+			03EB3D = AlchInvisibillity
+		}
+	}
+}
+Blue Butterfly Wing
+{
+	Damage Stamina
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+	Fortify Conjuration
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB25 = AlchFortifyConjuration
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+	Fortify Enchanting
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			03EB29 = AlchFortifyEnchanting
+		}
+	}
+}
+Hagraven Claw
+{
+	Resist Magic
+	{
+		magnitude	= 1
+		duration	= 60
+		Keywords
+		{
+			039E51 = AlchResistMagic
+		}
+	}
+	Lingering Damage Magicka
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10DE5F = AlchDamageMagickaDuration
+		}
+	}
+	Fortify Enchanting
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			03EB29 = AlchFortifyEnchanting
+		}
+	}
+	Fortify Barter
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			03EB23 = AlchFortifyBarter
+		}
+	}
+}
+Canis Root
+{
+	Damage Stamina
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+	Fortify One-handed
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB19 = AlchFortifyOneHanded
+		}
+	}
+	Fortify Marksman
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB1B = AlchFortifyMarksman
+		}
+	}
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 1
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+}
+Deathbell
+{
+	Damage Health
+	{
+		magnitude	= 3
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Ravage Stamina
+	{
+		magnitude	= 2
+		duration	= 20
+		Keywords
+		{
+			073F23 = AlchDamageStaminaRavage
+		}
+	}
+	Slow
+	{
+		magnitude	= 50
+		duration	= 5
+		Keywords
+		{
+			073F25 = AlchDamageSpeed
+		}
+	}
+	Weakness to Poison
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			090042 = AlchWeaknessPoison
+		}
+	}
+}
+Salt Pile
+{
+	Weakness to Magic
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			073F51 = AlchWeaknessMagic
+		}
+	}
+	Fortify Restoration
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB28 = AlchFortifyRestoration
+		}
+	}
+	Slow
+	{
+		magnitude	= 50
+		duration	= 5
+		Keywords
+		{
+			073F25 = AlchDamageSpeed
+		}
+	}
+	Regenerate Magicka
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB07 = AlchFortifyMagickaRate
+		}
+	}
+}
+Scaly Pholiota
+{
+	Weakness to Magic
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			073F51 = AlchWeaknessMagic
+		}
+	}
+	Fortify Illusion
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB27 = AlchFortifyIllusion
+		}
+	}
+	Regenerate Stamina
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB08 = AlchFortifyStaminaRate
+		}
+	}
+	Fortify Carry Weight
+	{
+		magnitude	= 4
+		duration	= 300
+		Keywords
+		{
+			03EB01 = AlchFortifyCarryWeight
+		}
+	}
+}
+Spriggan Sap
+{
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+	Fortify Enchanting
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			03EB29 = AlchFortifyEnchanting
+		}
+	}
+	Fortify Smithing
+	{
+		magnitude	= 4
+		duration	= 30
+		Keywords
+		{
+			03EB1D = AlchFortifySmithing
+		}
+	}
+	Fortify Alteration
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB24 = AlchFortifyAlteration
+		}
+	}
+}
+Nirnroot
+{
+	Damage Health
+	{
+		magnitude	= 2
+		duration	= 0
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Damage Stamina
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+	Invisibility
+	{
+		magnitude	= 0
+		duration	= 4
+		Keywords
+		{
+			03EB3D = AlchInvisibillity
+		}
+	}
+	Resist Magic
+	{
+		magnitude	= 1
+		duration	= 60
+		Keywords
+		{
+			039E51 = AlchResistMagic
+		}
+	}
+}
+Hanging Moss
+{
+	Damage Magicka
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2B6 = AlchDamageMagicka
+		}
+	}
+	Fortify Health
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF3 = AlchFortifyHealth
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+	Fortify One-handed
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB19 = AlchFortifyOneHanded
+		}
+	}
+}
+Charred Skeever Hide
+{
+	Restore Stamina
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB16 = AlchRestoreStamina
+		}
+	}
+	Cure Disease
+	{
+		magnitude	= 2
+		duration	= 0
+		Keywords
+		{
+			0AE722 = AlchCureDisease
+		}
+	}
+	Resist Poison
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			090041 = AlchResistPoison
+		}
+	}
+	Restore Health
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+}
+Juniper Berries
+{
+	Weakness to Fire
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2D = AlchWeaknessFire
+		}
+	}
+	Fortify Marksman
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB1B = AlchFortifyMarksman
+		}
+	}
+	Regenerate Health
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+	Damage Stamina Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2C = AlchDamageStaminaRate
+		}
+	}
+}
+Wheat
+{
+	Restore Health
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+	Fortify Health
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF3 = AlchFortifyHealth
+		}
+	}
+	Damage Stamina Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2C = AlchDamageStaminaRate
+		}
+	}
+	Lingering Damage Magicka
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10DE5F = AlchDamageMagickaDuration
+		}
+	}
+}
+Lavender
+{
+	Resist Magic
+	{
+		magnitude	= 1
+		duration	= 60
+		Keywords
+		{
+			039E51 = AlchResistMagic
+		}
+	}
+	Fortify Stamina
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF9 = AlchFortifyStamina
+		}
+	}
+	Ravage Magicka
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F27 = AlchDamageMagickaRavage
+		}
+	}
+	Fortify Conjuration
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB25 = AlchFortifyConjuration
+		}
+	}
+}
+Tundra Cotton
+{
+	Resist Magic
+	{
+		magnitude	= 1
+		duration	= 60
+		Keywords
+		{
+			039E51 = AlchResistMagic
+		}
+	}
+	Fortify Magicka
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF8 = AlchFortifyMagicka
+		}
+	}
+	Fortify Block
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB1C = AlchFortifyBlock
+		}
+	}
+	Fortify Barter
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			03EB23 = AlchFortifyBarter
+		}
+	}
+}
+Vampire Dust
+{
+	Invisibility
+	{
+		magnitude	= 0
+		duration	= 4
+		Keywords
+		{
+			03EB3D = AlchInvisibillity
+		}
+	}
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Regenerate Health
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+	Cure Disease
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			0AE722 = AlchCureDisease
+		}
+	}
+}
+Glow Dust
+{
+	Damage Magicka
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2B6 = AlchDamageMagicka
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+	Fortify Destruction
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB26 = AlchFortifyDestruction
+		}
+	}
+	Resist Shock
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEC = AlchResistShock
+		}
+	}
+}
+Troll Fat
+{
+	Resist Poison
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			090041 = AlchResistPoison
+		}
+	}
+	Fortify Two-handed
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB1A = AlchFortifyTwoHanded
+		}
+	}
+	Frenzy
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			073F29 = AlchInfluenceAggUp
+		}
+	}
+	Damage Health
+	{
+		magnitude	= 2
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+}
+Taproot
+{
+	Weakness to Magic
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			073F51 = AlchWeaknessMagic
+		}
+	}
+	Fortify Illusion
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB27 = AlchFortifyIllusion
+		}
+	}
+	Regenerate Magicka
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB07 = AlchFortifyMagickaRate
+		}
+	}
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+}
+Slaughterfish Scales
+{
+	Resist Frost
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEB = AlchResistFrost
+		}
+	}
+	Lingering Damage Health
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10AA4A = AlchDamageHealthDuration
+		}
+	}
+	Fortify Heavy Armor
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			03EB1E = AlchFortifyHeavyArmor
+		}
+	}
+	Fortify Block
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB1C = AlchFortifyBlock
+		}
+	}
+}
+Skeever Tail
+{
+	Damage Stamina Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2C = AlchDamageStaminaRate
+		}
+	}
+	Ravage Health
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F26 = AlchDamageHealthRavage
+		}
+	}
+	Damage Health
+	{
+		magnitude	= 2
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Fortify Light Armor
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			03EB1F = AlchFortifyLightArmor
+		}
+	}
+}
+Ice Wraith Teeth
+{
+	Weakness to Frost
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2E = AlchWeaknessFrost
+		}
+	}
+	Fortify Heavy Armor
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			03EB1E = AlchFortifyHeavyArmor
+		}
+	}
+	Invisibility
+	{
+		magnitude	= 0
+		duration	= 4
+		Keywords
+		{
+			03EB3D = AlchInvisibillity
+		}
+	}
+	Weakness to Fire
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2D = AlchWeaknessFire
+		}
+	}
+}
+Hagraven Feathers
+{
+	Damage Magicka
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2B6 = AlchDamageMagicka
+		}
+	}
+	Fortify Conjuration
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB25 = AlchFortifyConjuration
+		}
+	}
+	Frenzy
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			073F29 = AlchInfluenceAggUp
+		}
+	}
+	Weakness to Shock
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2F = AlchWeaknessShock
+		}
+	}
+}
+Giant's Toe
+{
+	Damage Stamina
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+	Fortify Health
+	{
+		magnitude	= 4
+		duration	= 300
+		Keywords
+		{
+			03EAF3 = AlchFortifyHealth
+		}
+	}
+	Fortify Carry Weight
+	{
+		magnitude	= 4
+		duration	= 300
+		Keywords
+		{
+			03EB01 = AlchFortifyCarryWeight
+		}
+	}
+	Damage Stamina Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2C = AlchDamageStaminaRate
+		}
+	}
+}
+Ectoplasm
+{
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Fortify Destruction
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB26 = AlchFortifyDestruction
+		}
+	}
+	Fortify Magicka
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF8 = AlchFortifyMagicka
+		}
+	}
+	Damage Health
+	{
+		magnitude	= 2
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+}
+Briar Heart
+{
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Fortify Block
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			03EB1C = AlchFortifyBlock
+		}
+	}
+	Paralysis
+	{
+		magnitude	= 0
+		duration	= 1
+		Keywords
+		{
+			073F30 = AlchParalysis
+		}
+	}
+	Fortify Magicka
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF8 = AlchFortifyMagicka
+		}
+	}
+}
+Void Salts
+{
+	Weakness to Shock
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2F = AlchWeaknessShock
+		}
+	}
+	Resist Magic
+	{
+		magnitude	= 1
+		duration	= 60
+		Keywords
+		{
+			039E51 = AlchResistMagic
+		}
+	}
+	Damage Health
+	{
+		magnitude	= 2
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Fortify Magicka
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF8 = AlchFortifyMagicka
+		}
+	}
+}
+Frost Salts
+{
+	Weakness to Fire
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2D = AlchWeaknessFire
+		}
+	}
+	Resist Frost
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEB = AlchResistFrost
+		}
+	}
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Fortify Conjuration
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB25 = AlchFortifyConjuration
+		}
+	}
+}
+Fire Salts
+{
+	Weakness to Frost
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			073F2E = AlchWeaknessFrost
+		}
+	}
+	Resist Fire
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEA = AlchResistFire
+		}
+	}
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Regenerate Magicka
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB07 = AlchFortifyMagickaRate
+		}
+	}
+}
+Falmer Ear
+{
+	Damage Health
+	{
+		magnitude	= 2
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Frenzy
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			073F29 = AlchInfluenceAggUp
+		}
+	}
+	Resist Poison
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			090041 = AlchResistPoison
+		}
+	}
+	Fortify Lockpicking
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			03EB21 = AlchFortifyLockpicking
+		}
+	}
+}
+Daedra Heart
+{
+	Restore Health
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB15 = AlchRestoreHealth
+		}
+	}
+	Damage Stamina Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2C = AlchDamageStaminaRate
+		}
+	}
+	Damage Magicka
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2B6 = AlchDamageMagicka
+		}
+	}
+	Fear
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			073F20 = AlchInfluenceConfDown
+		}
+	}
+}
+Chaurus Eggs
+{
+	Weakness to Poison
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			090042 = AlchWeaknessPoison
+		}
+	}
+	Fortify Stamina
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF9 = AlchFortifyStamina
+		}
+	}
+	Damage Magicka
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2B6 = AlchDamageMagicka
+		}
+	}
+	Invisibility
+	{
+		magnitude	= 0
+		duration	= 4
+		Keywords
+		{
+			03EB3D = AlchInvisibillity
+		}
+	}
+}
+Frost Mirriam
+{
+	Resist Frost
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEB = AlchResistFrost
+		}
+	}
+	Fortify Sneak
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB22 = AlchFortifySneak
+		}
+	}
+	Ravage Magicka
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F27 = AlchDamageMagickaRavage
+		}
+	}
+	Damage Stamina Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2C = AlchDamageStaminaRate
+		}
+	}
+}
+Elves Ear
+{
+	Restore Magicka
+	{
+		magnitude	= 5
+		duration	= 0
+		Keywords
+		{
+			03EB17 = AlchRestoreMagicka
+		}
+	}
+	Fortify Marksman
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB1B = AlchFortifyMarksman
+		}
+	}
+	Weakness to Frost
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			073F2E = AlchWeaknessFrost
+		}
+	}
+	Resist Fire
+	{
+		magnitude	= 3
+		duration	= 30
+		Keywords
+		{
+			03EAEA = AlchResistFire
+		}
+	}
+}
+Garlic
+{
+	Resist Poison
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			090041 = AlchResistPoison
+		}
+	}
+	Fortify Stamina
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EAF9 = AlchFortifyStamina
+		}
+	}
+	Regenerate Magicka
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB07 = AlchFortifyMagickaRate
+		}
+	}
+	Regenerate Health
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB06 = AlchFortifyHealRate
+		}
+	}
+}
+Salt Pile
+{
+	Weakness to Magic
+	{
+		magnitude	= 2
+		duration	= 30
+		Keywords
+		{
+			073F51 = AlchWeaknessMagic
+		}
+	}
+	Fortify Restoration
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB28 = AlchFortifyRestoration
+		}
+	}
+	Slow
+	{
+		magnitude	= 50
+		duration	= 5
+		Keywords
+		{
+			073F25 = AlchDamageSpeed
+		}
+	}
+	Regenerate Magicka
+	{
+		magnitude	= 5
+		duration	= 300
+		Keywords
+		{
+			03EB07 = AlchFortifyMagickaRate
+		}
+	}
+}
+Bone Meal
+{
+	Damage Stamina
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			03A2C6 = AlchDamageStamina
+		}
+	}
+	Resist Fire
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEA = AlchResistFire
+		}
+	}
+	Fortify Conjuration
+	{
+		magnitude	= 5
+		duration	= 60
+		Keywords
+		{
+			03EB25 = AlchFortifyConjuration
+		}
+	}
+	Ravage Stamina
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F23 = AlchDamageStaminaRavage
+		}
+	}
+}
+Nightshade
+{
+	Damage Health
+	{
+		magnitude	= 2
+		duration	= 1
+		Keywords
+		{
+			03EB42 = AlchDamageHealth
+		}
+	}
+	Damage Magicka Regen
+	{
+		magnitude	= 100
+		duration	= 5
+		Keywords
+		{
+			073F2B = AlchDamageMagickaRate
+		}
+	}
+	Lingering Damage Stamina
+	{
+		magnitude	= 1
+		duration	= 10
+		Keywords
+		{
+			10DE5E = AlchDamageStaminaDuration
+		}
+	}
+	Fortify Destruction
+	{
+		magnitude	= 4
+		duration	= 60
+		Keywords
+		{
+			03EB26 = AlchFortifyDestruction
+		}
+	}
+}
+Snowberries
+{
+	Resist Fire
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEA = AlchResistFire
+		}
+	}
+	Fortify Enchanting
+	{
+		magnitude	= 1
+		duration	= 30
+		Keywords
+		{
+			03EB29 = AlchFortifyEnchanting
+		}
+	}
+	Resist Frost
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEB = AlchResistFrost
+		}
+	}
+	Resist Shock
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEC = AlchResistShock
+		}
+	}
+}
+Thistle Branch
+{
+	Resist Frost
+	{
+		magnitude	= 3
+		duration	= 60
+		Keywords
+		{
+			03EAEB = AlchResistFrost
+		}
+	}
+	Ravage Stamina
+	{
+		magnitude	= 2
+		duration	= 10
+		Keywords
+		{
+			073F23 = AlchDamageStaminaRavage
+		}
+	}
+	Resist Poison
+	{
+		magnitude	= 3
+		duration	= 0
+		Keywords
+		{
+			090041 = AlchResistPoison
+		}
+	}
+	Fortify Heavy Armor
+	{
+		magnitude	= 2
+		duration	= 60
+		Keywords
+		{
+			03EB1E = AlchFortifyHeavyArmor
+		}
+	}
+}

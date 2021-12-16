@@ -35,8 +35,10 @@ namespace Mutagen.alch_registry_builder
             List<string> data = new();
             data.Add(indent + "Keywords");
             data.Add(indent + '{');
-            foreach (var link in effect.ContainedFormLinks.Where(_ => !_.IsNull))
+            foreach (var link in effect.ContainedFormLinks)
             {
+                if (link.IsNull)
+                    continue;
                 link.TryResolveCommon(state.LinkCache, out var resolvedLink);
                 if (resolvedLink == null || resolvedLink.EditorID == null)
                     continue;
