@@ -1,5 +1,7 @@
 # [alch](https://github.com/radj307/caco-alch-potion-builder) Registry Builder
-This is the utility used to generate the ingredients registry for my CLI potion builder / general alchemy utility project.
+
+This is the utility used to generate the ingredients registry for my CLI potion builder / general alchemy utility project.  
+Uses the [Mutagen](https://github.com/Mutagen-Modding/Mutagen) library.
 
 The benefits of using this over a static pre-defined list include:
 - Automatically Adapts to your Load Order.
