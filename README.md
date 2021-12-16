@@ -1,4 +1,4 @@
-# [alch](https://github.com/radj307/caco-alch-potion-builder) Registry Builder
+# [alch](https://github.com/radj307/caco-alch-potion-builder) Registry Generator
 
 This is the utility used to generate the ingredients registry for my CLI potion builder / general alchemy utility project.  
 Uses the [Mutagen](https://github.com/Mutagen-Modding/Mutagen) library.
