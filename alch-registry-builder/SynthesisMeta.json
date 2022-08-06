@@ -1,8 +1,3 @@
 {
-  "Nickname": "alch-registry-generator",
-  "Visibility": "IncludeButHide",
-  "OneLineDescription": "For use with the alch commandline utility. This is not a patcher.",
-  "LongDescription": "See  https://github.com/radj307/alch  for more information.",
-  "PreferredAutoVersioning": "Default",
-  "RequiredMods": []
+  "Visibility": "Exclude"
 }
