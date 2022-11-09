@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "alch-registry-builder": {
+      "commandName": "Project",
+      "commandLineArgs": "-O -H\r\n"
+    }
+  }
+}

@@ -1,9 +1,11 @@
-﻿using Mutagen.Bethesda;
+﻿using DynamicData;
+using Mutagen.Bethesda;
 using Mutagen.Bethesda.Environments;
 using Mutagen.Bethesda.Skyrim;
 using Newtonsoft.Json;
 using Noggog;
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 
@@ -36,10 +38,12 @@ namespace Mutagen.alch_registry_builder
                         "  Run this executable through your preferred mod manager for the best results.\n" +
                         "\n" +
                         "OPTIONS:\n" +
-                        "  -h, --help           Shows this help display.\n" +
-                        "  -n, --no-pause       Prevents the program from waiting for input before exiting.\n" +
-                        "  -o, --output <PATH>  Specifies a path to write the output file to.\n" +
-                        "  -H                   Indents the JSON file output so it's easier to read.\n");
+                        "  -h, --help            Shows this help display.\n" +
+                        "  -n, --no-pause        Prevents the program from waiting for input before exiting.\n" +
+                        "  -o, --output <PATH>   Specifies a path to write the output file to.\n" +
+                        "  -H                    Indents the JSON file output so it's easier to read.\n" +
+                        "  -O                    Opens the JSON file in the default external handler application.\n" +
+                        "      --use-enum-names  Serializes enums as strings instead of integrals.");
                     return;
                 }
 
@@ -66,68 +70,68 @@ namespace Mutagen.alch_registry_builder
                 }
 
                 bool do_pause = !args.Contains("-n") && !args.Contains("--no-pause");
+                bool do_open = args.Contains("-O");
 
                 JsonSerializerSettings serializerSettings = new()
                 {
                     Formatting = args.Contains("-H") ? Formatting.Indented : Formatting.None
                 };
+                if (args.Contains("--use-enum-names"))
+                    serializerSettings.Converters.Add(new Newtonsoft.Json.Converters.StringEnumConverter());
 
                 Registry registry = new();
 
-                try
+                // Initialize GameEnvironment
+                var env = GameEnvironment.Typical.Skyrim(SkyrimRelease.SkyrimSE);
+
+                var color_path = ConsoleColor.Yellow;
+                var color_header = ConsoleColor.Cyan;
+
+                Log("Configuration: \n");
+                Log("\tOutput:\t\"");
+                Log(out_path, color_path);
+                LogLine("\"");
+                LogLine($"\tPause:\t{do_pause}");
+
+                LogLine();
+                LogLine("=== Begin ===", color_header);
+
+                int count = 0;
+                foreach (var ingr in env.LoadOrder.PriorityOrder.Ingredient().WinningOverrides().Where(i => i.EditorID != null))
                 {
-                    // Initialize GameEnvironment
-                    var env = GameEnvironment.Typical.Skyrim(SkyrimRelease.SkyrimSE);
+                    Log($"[{++count}]\tResolving FormLinks for \"{ingr.Name}\"...");
+                    registry.Ingredients.Add(Ingredient.FromGetter(ingr, env.LinkCache));
+                    LogLine("  DONE");
+                }
 
-                    var color_path = ConsoleColor.Yellow;
-                    var color_header = ConsoleColor.Cyan;
+                LogLine("=== Complete ===", color_header);
+                LogLine();
 
-                    Log("Configuration: \n");
-                    Log("\tOutput:\t\"");
-                    Log(out_path, color_path);
-                    LogLine("\"");
-                    LogLine($"\tPause:\t{do_pause}");
-
-                    LogLine();
-                    LogLine("=== Begin ===", color_header);
-
-                    int count = 0;
-                    foreach (var ingr in env.LoadOrder.PriorityOrder.Ingredient().WinningOverrides().Where(i => i.EditorID != null))
-                    {
-                        Log($"[{++count}]\tResolving FormLinks for \"{ingr.Name}\"...");
-                        registry.ingredients.Add(Ingredient.FromGetter(ingr, env.LinkCache));
-                        LogLine("  DONE");
-                    }
-
-                    LogLine("=== Complete ===", color_header);
-                    LogLine();
-
-                    using (StreamWriter sw = new(File.Open(out_path, FileMode.Create, FileAccess.Write, FileShare.None)))
-                    {
-                        sw.Write(JsonConvert.SerializeObject(registry, serializerSettings));
-                        sw.Flush();
-                    }
+                // Write output:
+                using (StreamWriter sw = new(File.Open(out_path, FileMode.Create, FileAccess.Write, FileShare.None)))
+                {
+                    sw.Write(JsonConvert.SerializeObject(registry, serializerSettings));
+                    sw.Flush();
 
                     Log("Output written to \"");
                     Log(out_path, color_path);
                     LogLine("\"");
-
-                    if (do_pause)
-                    {
-                        Console.Write("Press any key to exit...");
-                        Console.ReadKey();
-                    }
                 }
-                catch (Exception ex)
+
+                if (do_open)
                 {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"[ERROR]\t{ex}\nPress any key to exit...\n");
-                    Console.ResetColor();
-                    if (do_pause)
+                    Process.Start(new ProcessStartInfo(out_path)
                     {
-                        Console.Write("Press any key to exit...");
-                        Console.ReadKey();
-                    }
+                        Verb = "open",
+                        UseShellExecute = true
+                    });
+                    Console.WriteLine("Opened output file with default handler application.");
+                }
+
+                if (do_pause)
+                {
+                    Console.Write("Press any key to exit...");
+                    Console.ReadKey();
                 }
             }
             catch (Exception ex)
