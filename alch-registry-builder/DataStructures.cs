@@ -72,6 +72,7 @@ namespace Mutagen.alch_registry_builder
                     "FortifyStamina",
                     "FortifyMagicka",
                     "Strength",
+                    "Resist",
             }},
             {
                 EKeywordDisposition.Cure, new()
