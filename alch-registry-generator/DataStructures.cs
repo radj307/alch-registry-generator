@@ -131,7 +131,11 @@ namespace Mutagen.alch_registry_builder
             var magicEffectGetter = effectGetter.BaseEffect.TryResolve(linkCache);
             if (magicEffectGetter is null) throw new System.Exception($"Cannot build effect data structure; Failed to resolve formkey: {effectGetter.BaseEffect.FormKey}");
             List<Keyword> kwda = new();
-            magicEffectGetter.Keywords?.ForEach(link => kwda.Add(Keyword.FromGetter(link.TryResolve(linkCache))));
+            magicEffectGetter.Keywords?.ForEach(link =>
+            {
+                if (link.TryResolve(linkCache) is IKeywordGetter keywordGetter)
+                    kwda.Add(Keyword.FromGetter(keywordGetter));
+            });
             return new()
             {
                 name = magicEffectGetter.Name?.String ?? string.Empty,
@@ -165,7 +169,7 @@ namespace Mutagen.alch_registry_builder
         public static GameSetting FromGetter(IGameSettingBoolGetter gameSettingGetter) => new() { name = gameSettingGetter.EditorID ?? string.Empty, value = gameSettingGetter.Data ?? default };
         public static GameSetting FromGetter(IGameSettingFloatGetter gameSettingGetter) => new() { name = gameSettingGetter.EditorID ?? string.Empty, value = gameSettingGetter.Data ?? default };
         public static GameSetting FromGetter(IGameSettingIntGetter gameSettingGetter) => new() { name = gameSettingGetter.EditorID ?? string.Empty, value = gameSettingGetter.Data ?? default };
-        public static GameSetting FromGetter(IGameSettingStringGetter gameSettingGetter) => new() { name = gameSettingGetter.EditorID ?? string.Empty, value = gameSettingGetter.Data ?? default };
+        public static GameSetting FromGetter(IGameSettingStringGetter gameSettingGetter) => new() { name = gameSettingGetter.EditorID ?? string.Empty, value = gameSettingGetter.Data?.String ?? string.Empty };
     }
     public struct Registry
     {
