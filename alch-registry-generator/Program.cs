@@ -1,4 +1,4 @@
-﻿using DynamicData;
+﻿using Mutagen.alch_registry_builder.Extensions;
 using Mutagen.Bethesda;
 using Mutagen.Bethesda.Environments;
 using Mutagen.Bethesda.Skyrim;
@@ -100,7 +100,7 @@ namespace Mutagen.alch_registry_builder
                 foreach (var ingr in env.LoadOrder.PriorityOrder.Ingredient().WinningOverrides().Where(i => i.EditorID != null))
                 {
                     Log($"[{++count}]\tResolving FormLinks for \"{ingr.Name}\"...");
-                    registry.Ingredients.Add(Ingredient.FromGetter(ingr, env.LinkCache));
+                    registry.Ingredients.AddIfUnique(Ingredient.FromGetter(ingr, env.LinkCache));
                     LogLine("  DONE");
                 }
 
