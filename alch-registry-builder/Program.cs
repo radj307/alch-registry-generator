@@ -1,7 +1,11 @@
-﻿using Mutagen.Bethesda;
+﻿using DynamicData;
+using Mutagen.Bethesda;
 using Mutagen.Bethesda.Environments;
 using Mutagen.Bethesda.Skyrim;
+using Newtonsoft.Json;
+using Noggog;
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 
@@ -9,37 +13,6 @@ namespace Mutagen.alch_registry_builder
 {
     internal static class Program
     {
-        // Accepts "-n"|"--no-pause" & "-o <name>"|"--output <name>"
-        private static (string, bool) ParseArguments(string default_out_name, string[] args)
-        {
-            bool pauseBeforeExit = true;
-            string? name = null;
-            for (int i = 0; i < args.Length; i++)
-            {
-                if (args[i].Equals("-n", StringComparison.Ordinal) || args[i].Equals("--no-pause", StringComparison.Ordinal))
-                    pauseBeforeExit = false;
-                else if (args[i].Equals("-o", StringComparison.Ordinal) || args[i].Equals("--output", StringComparison.Ordinal))
-                {
-                    if (i + 1 < args.Length)
-                        name = args[++i];
-                    else
-                        throw new Exception("Output specifier included without a filename!");
-                }
-            }
-            if (name != null)
-            {
-                if (!Path.IsPathFullyQualified(name)) // not absolute
-                {
-                    if (Path.IsPathRooted(name)) // relative
-                        name = Path.GetFullPath(name);
-                    else // name only contains a filename, resolve it from the current working directory
-                        name = Path.GetFullPath(name, Directory.GetCurrentDirectory());
-                } // else name is fully qualified, don't modify it
-            }
-            else name = Path.GetFullPath(default_out_name, Directory.GetCurrentDirectory());
-            return (name, pauseBeforeExit);
-        }
-
         static void Log(string message, ConsoleColor? color = null)
         {
             Console.ForegroundColor = color ?? Console.ForegroundColor;
@@ -58,60 +31,107 @@ namespace Mutagen.alch_registry_builder
         {
             try
             {
-                var (out_path, do_pause) = ParseArguments("alch.ingredients", args);
-                try
+                if (args.Contains("-h") || args.Contains("--help"))
                 {
-                    // Initialize GameEnvironment
-                    var env = GameEnvironment.Typical.Skyrim(SkyrimRelease.SkyrimSE);
+                    Console.Write("alch-registry-generator\n" +
+                        "  Creates an ingredients registry for the `alch` program by parsing your load order.\n" +
+                        "  Run this executable through your preferred mod manager for the best results.\n" +
+                        "\n" +
+                        "OPTIONS:\n" +
+                        "  -h, --help            Shows this help display.\n" +
+                        "  -n, --no-pause        Prevents the program from waiting for input before exiting.\n" +
+                        "  -o, --output <PATH>   Specifies a path to write the output file to.\n" +
+                        "  -H                    Indents the JSON file output so it's easier to read.\n" +
+                        "  -O                    Opens the JSON file in the default external handler application.\n" +
+                        "      --use-enum-names  Serializes enums as strings instead of integrals.");
+                    return;
+                }
 
-                    var color_path = ConsoleColor.Yellow;
-                    var color_header = ConsoleColor.Cyan;
+                string out_path = "alch.ingredients";
 
-                    // Initialize FileInterface
-                    FileInterface O = new(out_path);
-
-                    Log("Configuration: \n");
-                    Log("\tOutput:\t\"");
-                    Log(out_path, color_path);
-                    LogLine("\"");
-                    LogLine($"\tPause:\t{do_pause}");
-
-                    LogLine();
-                    LogLine("=== Begin ===", color_header);
-
-                    int count = 0;
-                    foreach (var ingr in env.LoadOrder.PriorityOrder.Ingredient().WinningOverrides().Where(i => i.EditorID != null))
+                // figure out the output path
+                for (int i = 0; i < args.Length; ++i)
+                {
+                    string arg = args[i];
+                    if (arg.Equals("-o") || arg.Equals("--output"))
                     {
-                        Log($"[{++count}]\tResolving FormLinks for \"{ingr.Name}\"...");
-                        O.Write(Formatter.FormatIngredient(ingr, env));
-                        LogLine("  DONE");
+                        if (i == args.Length - 1) throw new Exception($"Argument \"{arg}\" must be followed by a valid output path.");
+                        out_path = args[i + 1];
                     }
+                }
 
-                    LogLine("=== Complete ===", color_header);
-                    LogLine();
+                if (!Path.IsPathFullyQualified(out_path))
+                { // get absolute path:
+                    out_path = Path.GetFullPath(Path.Combine(Environment.CurrentDirectory, out_path));
+                }
+                if (!Path.HasExtension(out_path))
+                {
+                    out_path = Path.Combine(out_path, "alch.ingredients");
+                }
 
-                    O.Close();
+                bool do_pause = !args.Contains("-n") && !args.Contains("--no-pause");
+                bool do_open = args.Contains("-O");
+
+                JsonSerializerSettings serializerSettings = new()
+                {
+                    Formatting = args.Contains("-H") ? Formatting.Indented : Formatting.None
+                };
+                if (args.Contains("--use-enum-names"))
+                    serializerSettings.Converters.Add(new Newtonsoft.Json.Converters.StringEnumConverter());
+
+                Registry registry = new();
+
+                // Initialize GameEnvironment
+                var env = GameEnvironment.Typical.Skyrim(SkyrimRelease.SkyrimSE);
+
+                var color_path = ConsoleColor.Yellow;
+                var color_header = ConsoleColor.Cyan;
+
+                Log("Configuration: \n");
+                Log("\tOutput:\t\"");
+                Log(out_path, color_path);
+                LogLine("\"");
+                LogLine($"\tPause:\t{do_pause}");
+
+                LogLine();
+                LogLine("=== Begin ===", color_header);
+
+                int count = 0;
+                foreach (var ingr in env.LoadOrder.PriorityOrder.Ingredient().WinningOverrides().Where(i => i.EditorID != null))
+                {
+                    Log($"[{++count}]\tResolving FormLinks for \"{ingr.Name}\"...");
+                    registry.Ingredients.Add(Ingredient.FromGetter(ingr, env.LinkCache));
+                    LogLine("  DONE");
+                }
+
+                LogLine("=== Complete ===", color_header);
+                LogLine();
+
+                // Write output:
+                using (StreamWriter sw = new(File.Open(out_path, FileMode.Create, FileAccess.Write, FileShare.None)))
+                {
+                    sw.Write(JsonConvert.SerializeObject(registry, serializerSettings));
+                    sw.Flush();
 
                     Log("Output written to \"");
                     Log(out_path, color_path);
                     LogLine("\"");
-
-                    if (do_pause)
-                    {
-                        Console.Write("Press any key to exit...");
-                        Console.ReadKey();
-                    }
                 }
-                catch (Exception ex)
+
+                if (do_open)
                 {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"[ERROR]\t{ex}\nPress any key to exit...\n");
-                    Console.ResetColor();
-                    if (do_pause)
+                    Process.Start(new ProcessStartInfo(out_path)
                     {
-                        Console.Write("Press any key to exit...");
-                        Console.ReadKey();
-                    }
+                        Verb = "open",
+                        UseShellExecute = true
+                    });
+                    Console.WriteLine("Opened output file with default handler application.");
+                }
+
+                if (do_pause)
+                {
+                    Console.Write("Press any key to exit...");
+                    Console.ReadKey();
                 }
             }
             catch (Exception ex)
